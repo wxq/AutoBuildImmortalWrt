@@ -23,6 +23,10 @@ PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
+# 由Mr.Q添加
+PACKAGES="$PACKAGES mihomo"
+PACKAGES="$PACKAGES uci-app-mihomo"
+PACKAGES="$PACKAGES luci-i18n-mihomo-zh-cn"
 
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
